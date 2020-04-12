@@ -608,6 +608,19 @@ section {
   margin-bottom: 0;
 }
 
+.services .icon-box-cvred .icon i {
+  color: #fd4d40;
+}
+
+.services .icon-box-cvblue .icon i {
+  color: #16c3b0;
+}
+
+.services .icon-box-cvyellow .icon i {
+  color: #fdb62f;
+}
+
+
 .services .icon-box-pink .icon i {
   color: #ff689b;
 }
