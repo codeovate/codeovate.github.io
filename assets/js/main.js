@@ -4,7 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-const jq = jQuery.noConflict();
 !(function($) {
   "use strict";
 
@@ -185,7 +184,24 @@ const jq = jQuery.noConflict();
     AOS.init({
       duration: 800
     });
+    $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
+      }
+    }
+  });
+    
   });
 
 
-})(jq);
+})(jQuery);
