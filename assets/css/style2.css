@@ -1651,8 +1651,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #364146;
 }
 
-@media (min-width:container 576px) {
-  .container.user- {
+@media (min-width: 576px) {
+  .container.user-container {
     max-width: 540px;
   }
 }
