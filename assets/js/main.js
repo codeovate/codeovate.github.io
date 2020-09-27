@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+const jq = jQuery.noConflict();
 !(function($) {
   "use strict";
 
@@ -186,4 +187,5 @@
     });
   });
 
-})(jQuery);
+
+})(jq);
