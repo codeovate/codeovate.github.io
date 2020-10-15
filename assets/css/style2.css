@@ -833,72 +833,74 @@ h1, h2, h3, h4, h5, h6 {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
-  box-sizing: content-box;
-  min-height: 320px;
+  box-sizing: content-box !important;
+  min-height: 320px !important;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid #fff;
+  width: 90px !important;
+  border-radius: 50% !important;
+  margin: -40px 0 0 40px !important;
+  position: relative !important;
+  z-index: 2 !important;
+  border: 6px solid #fff !important;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 45px;
-  color: #111;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin: 10px 0 5px 45px !important;
+  color: #111 !important;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 0 45px;
+  font-size: 14px !important;
+  color: #999 !important;
+  margin: 0 0 0 45px !important;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d8dee1;
-  font-size: 26px;
+  color: #d8dee1 !important;
+  font-size: 26px !important;
 }
 
 .testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
+  display: inline-block !important;
+  left: -5px !important;
+  position: relative !important;
 }
 
 .testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
+  display: inline-block !important;
+  right: -5px !important;
+  position: relative !important;
+  top: 10px !important;
 }
 
 .testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: #f4f6f7;
-  position: relative;
-  border-radius: 6px;
-  position: relative;
-  z-index: 1;
+  font-style: italic !important;
+  margin: 0 15px 0 15px !important;
+  padding: 20px 20px 60px 20px !important;
+  background: #f4f6f7 !important;
+  position: relative !important;
+  border-radius: 6px !important;
+  z-index: 1 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
-  text-align: center;
+  margin-top: 5px !important;
+  text-align: center !important;
 }
 
 .testimonials .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  display: inline-block !important;
+  margin: 0 5px !important;
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
   background-color: #ddd !important;
 }
 
@@ -908,7 +910,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   .testimonials {
-    margin: 30px 10px;
+    margin: 30px 10px !important;
   }
 }
 
@@ -1651,8 +1653,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #364146;
 }
 
-@media (min-width:container 576px) {
-  .container.user- {
+@media (min-width: 576px) {
+  .container.user-container {
     max-width: 540px;
   }
 }
